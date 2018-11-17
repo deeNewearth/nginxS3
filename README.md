@@ -10,5 +10,9 @@ S3CONFIGFILE : S3Bucket followed by the zipped conf.d folder s3 key. this needs 
 This container is used to run an nginx container that does not depends on file system and thus is suitable for use in orchestration environments like rancher, swarm, etc.
 On startup it downloads the conf.d zip file given in the environment variable from Amazon S3
 
+##Tutorial
+Follow along tutorial available at https://medium.com/@deepayan_63213/docker-able-nginx-container-that-does-not-depends-on-file-system-22badac7be74
+
+
 
 
